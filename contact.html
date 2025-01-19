@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <!-- Link to home page -->
+        <a class="navbar-brand" href="index.html">WEEK 03</a>
+        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- the three bars icon when you go mobile -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- link to other pages section -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <!-- individual pages links -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- form section -->
+<div class="container">
+    <!-- form with margin top 5em -->
+    <div class="mt-5">
+        <!-- email address -->
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <!-- comment area -->
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="I like your page!"></textarea>
+      </div>
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script class="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
